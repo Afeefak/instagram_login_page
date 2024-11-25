@@ -2,6 +2,7 @@ body{
     background: rgb(250, 250, 250);
     display: flex;
     justify-content: center;
+   margin-left: 200px;
 }
 
 .mobile .img1{
@@ -10,14 +11,15 @@ body{
     top:10vh;
     height: 430px;
     width: 300px;
+    left: 28%;
 }
 .mobile .img2{
-    
     position: absolute;
     left: 26.8vw;
     top: 19vh;
     height: 304px;
-    width: 163px
+    width: 163px;
+    left: 530px;
 }
 .mobile .img3{
     position: absolute;
@@ -26,6 +28,7 @@ body{
     height: 304px;
     width: 163px;
     opacity: 0.8;
+    left: 530px;
 }
 .container{
     height: 350px;
@@ -155,4 +158,3 @@ body{
     color: rgb(158, 158, 158);
     user-select: none;
 }
-
